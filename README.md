@@ -33,7 +33,7 @@ This repository contains six Haskell exercises, each accompanied by test cases. 
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/haskell-exercises.git
+   git clone https://github.com/EdWrayy/Haskell-Exercises
    cd haskell-exercises
    ```
 2. **Ensure you have GHC & Cabal installed**:
@@ -41,25 +41,10 @@ This repository contains six Haskell exercises, each accompanied by test cases. 
    ghc --version
    cabal --version
    ```
-3. **Run the test cases**:
-   ```sh
-   cabal test
-   ```
+3. **Run the desired question using GHCi**
 
-## Running Individual Exercises
-Each exercise is implemented as a Haskell module. To run a specific exercise:
-```sh
-ghci src/Exercise1.hs
-```
-Or compile and execute:
-```sh
-ghc -o exercise1 src/Exercise1.hs
-./exercise1
-```
 
-## Contributing
-Contributions are welcome! Please submit issues or pull requests if you find bugs or have improvements.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the University of Southampton (UoS)
 
